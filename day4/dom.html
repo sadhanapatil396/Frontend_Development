@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+     *{
+        text-align: center;
+     }
+     .bulbimage{
+        height: 50vh;
+        width: 40vw;
+     }
+    </style>
+</head>
+<body>
+    
+<img src="https://www.swegon.com/siteassets/4-guides/indoor-climate-guide/light-and-energy-savings.jpeg?v=1654769342&width=850&rmode=crop" alt="bulb on" class="bulbimage" id="1" 
+     ><br>
+    <button onclick="lighton()">light on</button>
+    <button onclick="lightoff()">light off</button>
+    <script>
+      let a = document.getElementById("1");
+      
+      function lighton() {
+       a.src="https://landline.media/wp-content/uploads/2019/11/Light-Bulb.jpg"; 
+      }
+
+      function lightoff() {
+        a.src="https://media.istockphoto.com/id/523616495/photo/light-bulb.jpg?s=612x612&w=0&k=20&c=pjv-wWMBRNvnE5G68k5CWe6id34gkvxkMleizCj1AYM=";
+    }
+       
+    </script>
+</body>
+</html>

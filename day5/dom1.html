@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    *{
+      text-align: center;
+    }
+    .bulbimge{
+      height: 500px;
+      width: 500px;
+    
+    }
+    .buln-on{
+        background-color: green;
+        padding: 20px;
+        border-radius: 20px;
+        border: none;
+        font-size: 25px;
+        margin-right: 35px;
+    }
+        .buln-off{
+        background-color:rgb(128,0,0);
+        padding: 20px;
+        border-radius: 20px;
+        border: none;
+        font-size: 25px;
+        margin-right: 35px;
+    }
+
+  </style>
+</head>
+<body>
+  <img src="https://5.imimg.com/data5/HA/PM/NU/SELLER-23173285/wall101kharbuja-c1-500x500.JPG" alt="bulb-on" class="bulbimge" id="1"> <br>
+  <button onclick="lighton()" class="bulb-on" id="bulbonid"> light on </button>
+  <button onclick="lightoff()" class="bulb-off" id="bulboffid">light off</button>
+  <script >
+    let a = document.getElementById("1");
+    let bulbonele=document.getElementById("bulbonid");
+    let bulboffele=document.getElementById("bulboffid");
+
+      function lighton() {
+       a.src="https://5.imimg.com/data5/HA/PM/NU/SELLER-23173285/wall101kharbuja-c1-500x500.JPG";
+       bulbonele.style.backgroundColor="grey";
+       bulboffele.style.backgroundColor="red";
+
+      } 
+
+      function lightoff() {
+        a.src="https://m.media-amazon.com/images/I/61w5ZIZ8zKL.jpg";
+        bulbonele.style.backgroundColor="grey";
+        bulboffele.style.backgroundColor="green";
+      }
+
+  </script>
+</body>
+</html>

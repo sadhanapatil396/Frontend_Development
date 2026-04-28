@@ -1,0 +1,87 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(8, 8, 8);
+  padding: 14px 40px;
+ color: white;
+ font-size: 15px;
+}
+.logo{
+  font-size: 25px;
+}
+.nav-list{
+  display: flex;
+  gap: 40px;
+  font-size: 15px;
+}
+.nav-list p{
+  cursor: pointer;
+}
+.footer{
+  background-color: black;
+  height: 40vh;
+  color: rgb(214, 151, 151);
+  text-align: center;
+  padding:15px ;
+  margin-top: -20px;
+}
+.box-1{
+  display: flex;
+  justify-content: space-around;
+}
+.Reg-style{
+  height: 80vh;
+  background-image: url(https://img.freepik.com/premium-photo/paper-shopping-bags-with-gift-boxes-shopping-trilley-pink-pastel-background-top-view_175682-31684.jpg);
+  background-size: cover;
+  margin-top: -25px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.boxx-1{
+  color: rgb(10, 10, 10);
+  gap: 30px;
+}
+.email-style{
+  color: rgb(8, 8, 8);
+  border-radius: 20px;
+  height: 85px;
+  width: 100px;
+ gap: 30px;
+ font-size: 20px;
+}
+.pasword-style{
+  color: white;
+  border-radius: 20px;
+  height: 90px;
+  width: 100px;
+  font-size: 15px;
+}
+.reg-2{
+  display: flex;
+ gap: 20px;
+ margin-top: 25px;
+ text-align: center;
+ justify-content: center;
+}
+.login-style{
+  border-radius: 10px;
+  background-color: rgb(251, 251, 251);
+  padding: 5px;
+  font-size: 15px;
+  text-align: center;
+  justify-content: center;
+}
+.signin-style{
+  border-radius: 10px;
+  background-color: rgb(251, 251, 251);
+  padding: 5px;
+  font-size: 15px;
+  text-align: center;
+  justify-content: center;
+}
+.main-style{
+  text-align: center;
+  align-items: center;
+  font-size: 25px;
+}
